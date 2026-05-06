@@ -103,7 +103,7 @@ export const skills: Skill[] = [
 
 /** Slug substring on GitHub repo path — drives project filters on the homepage */
 export const projectPortfolioGroup = {
-  product: ["salespal-frontend", "constructions", "nurse"] as const,
+  product: ["constructions", "nurse"] as const,
   interactive: ["webgl", "knowledge-run"] as const,
 } as const;
 
@@ -118,17 +118,6 @@ export const projects: Project[] = [
     liveUrl: "https://webgl-five-steel.vercel.app",
     githubUrl: `${gh}/webgl`,
     highlight: "Interactive · visual stack",
-  },
-  {
-    title: "SalesPal",
-    description:
-      "Sales-facing frontend for calling and-assisted flows—bots, dialogs, and operator views iterated from production feedback.",
-    image: "/salespal.png",
-    imageAlt: "Screenshot of the SalesPal product interface",
-    tags: ["React", "Sales tooling", "Vercel", "Voice UX"],
-    liveUrl: "https://salespal-frontend.vercel.app",
-    githubUrl: `${gh}/salespal-frontend`,
-    highlight: "Customer & ops",
   },
   {
     title: "Constructions",

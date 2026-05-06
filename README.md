@@ -89,7 +89,6 @@ src/
   globals.css
 public/
   webgl.png
-  salespal.png
   construction.png
   benurse.png
   knowledge-run.png
