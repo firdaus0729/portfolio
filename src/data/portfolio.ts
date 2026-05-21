@@ -103,11 +103,22 @@ export const skills: Skill[] = [
 
 /** Slug substring on GitHub repo path — drives project filters on the homepage */
 export const projectPortfolioGroup = {
-  product: ["constructions", "nurse"] as const,
+  product: ["constructions", "nurse", "rfincare"] as const,
   interactive: ["webgl", "knowledge-run"] as const,
 } as const;
 
 export const projects: Project[] = [
+  {
+    title: "Rfincare",
+    description:
+      "Intelligent loan-matching platform—personalized offers, instant eligibility checks, and application status tracking in one production Vercel frontend.",
+    image: "/rfincare.png",
+    imageAlt: "Screenshot of the Rfincare loan matching web app",
+    tags: ["React", "Fintech", "Vercel", "Loan matching"],
+    liveUrl: "https://rfincare-frontend.vercel.app",
+    githubUrl: `${gh}/rfincare-frontend`,
+    highlight: "Product & business",
+  },
   {
     title: "WebGL",
     description:
