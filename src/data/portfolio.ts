@@ -48,11 +48,11 @@ export type EducationItem = {
 
 /** ~13 years of delivery — tighten dates, employers, and locations when you revise your résumé */
 export const siteConfig = {
-  name: "Firdaus Zulkifli",
+  name: "Jaroslav Caprata",
   title: "Engineer · Web · Mobile · AI",
   tagline:
     "Thirteen years shipping web apps on Vercel and beyond, React Native / Flutter and native Android & iOS (Java · Kotlin · Swift), plus Python & Django backends and AI-assisted features—whatever the roadmap demands.",
-  email: "firdausjulkifli0729@gmail.com",
+  email: "jaroslavcapratach1f@gmail.com",
   locale: "en_US",
   url: import.meta.env.VITE_SITE_URL ?? "https://your-domain.vercel.app",
   twitterHandle: "@firdaus0729",

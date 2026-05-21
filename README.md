@@ -1,4 +1,4 @@
-# Firdaus Zulkifli - Portfolio
+# Jaroslav Caprata - Portfolio
 
 Modern personal portfolio website for a full-stack engineer, built with a fast Vite + React stack and designed for clean presentation, smooth interactions, and easy content updates.
 
